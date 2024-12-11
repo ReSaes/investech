@@ -1,0 +1,86 @@
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
+:root {
+    --bg-pink-1: rgb(243, 101, 150);
+    --bg-pink-2: rgb(249, 168, 198);
+    --bg-pink-3: rgba(251, 207, 224, 0.407);
+    --bg-black: rgb(28, 28, 28);
+    --margin-top: 100px;
+}
+
+.logo-investech{
+    width: 10%;
+}
+
+
+.logo-icon {
+    color: var(--bg-pink-1);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: var(--bg-pink-1);
+}
+
+.my-title {
+    color: var(--bg-black);
+    font-weight: 700;
+}
+
+.bg-pink-2 {
+    background-color: var(--bg-pink-3);
+}
+
+.sobre {
+    min-height: 60vh;
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-pink-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: var(--bg-pink-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social, .icon-contato {
+    font-size: 2rem;
+    color: var(--bg-pink-1);
+    transition: .5s;
+}
+.icon-social:hover {
+    color: var(--bg-pink-3);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
+
